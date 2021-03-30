@@ -1,0 +1,19 @@
+{
+            "type": "equirectangular",
+"panorama":"thewokshop.jpg",
+                "autoLoad": true,
+                "compass": false,
+                "hotSpotDebug":true,
+        "pitch": 9,
+    "yaw": -167,
+    "hfov": 110,
+                "hotSpots": [
+        {
+            "pitch": 44.24,
+            "yaw": -151.099,
+            "type": "info",
+            "text": "There's so much stuff in here",
+            "URL": "https://google.com/?query=thewokshopsanfrancisco"
+        }
+    ]
+}

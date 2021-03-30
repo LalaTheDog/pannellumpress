@@ -1,3 +1,5 @@
+Seeing if I can change it to work, somewhat.  The name of the image file, if put in the json or not I have not decided yet.
+
 UNMAINTAINED!
 
 === pannellumpress ===

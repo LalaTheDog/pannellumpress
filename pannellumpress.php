@@ -69,8 +69,13 @@ function pannellumpress_shortcode($attributes, $content='', $code='') {
         $pannellum_url = str_replace("http://", "https://", $pannellum_url);
     }
 
-    return '<iframe title="' . esc_attr($title) . '" width="' . $width . '" height="' . $height . '" webkitAllowFullScreen mozallowfullscreen allowFullScreen style="border-style:none;" src="' . $pannellum_url . '?config=' . esc_url(pannellumpress_upload_url() . '/' . $name . '/config.json') . '"></iframe>';
+    //return '<iframe title="' . esc_attr($title) . '" width="' . $width . '" height="' . $height . '" webkitAllowFullScreen mozallowfullscreen allowFullScreen style="border-style:none;" src="' . $pannellum_url . '?config=' . esc_url(pannellumpress_upload_url() . '/' . $name . '/config.json') . '"></iframe>';
 
+    // changing it here
+    return "<div style='text-align:center;'><iframe width='{$width}' height='{$height}' allowfullscreen style='border-style:none;' src='".$pannellum_url."#config=".get_site_url()."/".esc_url(pannellumpress_upload_url()) . '/' . $name ."/config.json'></iframe></div>";
+
+
+    
 }
 
 define('PANNELLUMPRESS_MANAGE_CAPACITY', 'upload_files');

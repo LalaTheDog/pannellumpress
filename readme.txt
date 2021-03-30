@@ -10,6 +10,8 @@ https://github.com/mpetroff/pannellum/releases/download/2.5.6/pannellum-2.5.6.zi
 into:
 /wordpress/wp-content/plugins/pannellumpress-master/pannellum/src
 
+Or actually, switching to use the CDN, if you use the CDN, you don't have to unpack it.
+
 USAGE
 
 Upload the file with a matching config.json
